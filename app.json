@@ -17,13 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.expo.kudo.sdk44",
+      "config": {
+        "googleMapsApiKey": "ooxx"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev.expo.kudo.sdk44"
     },
     "web": {
       "favicon": "./assets/favicon.png"
